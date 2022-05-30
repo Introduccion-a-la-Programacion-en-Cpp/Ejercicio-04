@@ -3,9 +3,48 @@
 
 #include <iostream>
 
+using namespace std;
+
+/*
+ * Completar la funcion 'kangaroo'.
+ *
+ * La funcion retornara un STRING.
+ * Esta funcion acepta los siguientes parametros:
+ *  1. INTEGER x1
+ *  2. INTEGER v1
+ *  3. INTEGER x2
+ *  4. INTEGER v2
+ */
+
+string kangaroo(int x1, int v1, int x2, int v2) {
+
+}
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    int x1 = 0;
+
+    int v1 = 0;
+
+    int x2 = 0;
+
+    int v2 = 0;
+
+    cout << "Ingrse la posicion y velocidad del primer Canguro" << endl;
+    cin >> x1;
+    cin >> v1;
+
+    cout << "Ingrese la posicion y velocidad del segundo Canguro" << endl;
+    cin >> x2;
+    cin >> v2;
+    string result = kangaroo(x1, v1, x2, v2);
+
+    cout << "Se encuentran los Canguros?" << endl;
+    cout << result << "\n";
+
+    return 0;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
